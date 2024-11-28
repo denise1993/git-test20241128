@@ -1,3 +1,6 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional");
 *{ padding:0; margin:0; list-style:none; box-sizing: border-box;}
 body{ font-family: 'Noto Sans TC', 'Microsoft JhengHei UI', 'Microsoft JhengHei'; font-weight: 300;}
+.wrapper{ max-width: 500px; margin: 0 auto;}
+nav{ display: flex; border: 1px solid green;}
+nav > a{ display: block; flex-grow: 1; text-decoration: none; border: 1px solid green; text-align: center;}
